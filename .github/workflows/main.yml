@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 * * * *'  # every hour
   workflow_dispatch:      # manual trigger
+  
+permissions:
+  contents: write
 
 jobs:
   update-stats:
