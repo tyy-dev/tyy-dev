@@ -24,8 +24,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          curl -s -o stats.svg "https://github-readme-stats.vercel.app/api?username=tyy-dev&count_private=true&show_icons=true&theme=dracula&access_token=$GH_TOKEN"
-          
+          curl -s -o stats.svg "https://github-readme-stats.vercel.app/api?username=tyy-dev&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&access_token=$GH_TOKEN"
           curl -s -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs?username=tyy-dev&langs_count=5&layout=compact&theme=dracula&count_private=true&access_token=$GH_TOKEN"
 
           # Commit & push updated stats
