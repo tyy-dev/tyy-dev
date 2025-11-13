@@ -19,13 +19,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-
-      - name: Update README Stats
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+    
         run: |
-          curl -s -o stats.svg "https://github-readme-stats.vercel.app/api?username=tyy-dev&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&access_token=$GH_TOKEN"
-          curl -s -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs?username=tyy-dev&langs_count=5&layout=compact&theme=dracula&count_private=true&access_token=$GH_TOKEN"
+          curl -s -o stats.svg "https://github-readme-stats.vercel.app/api?username=tyy-dev&show_icons=true&include_all_commits=true&count_private=true&theme=dracula"
+          curl -s -o top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs?username=tyy-dev&langs_count=5&layout=compact&theme=dracula&count_private=true"
 
           # Commit & push updated stats
           git config --global user.name "github-actions[bot]"
