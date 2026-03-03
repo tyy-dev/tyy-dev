@@ -1,4 +1,4 @@
-<h2 align="left">👋 I'm an 18-year-old software developer from the Netherlands 🇳🇱.</h2>
+<h2 align="left">👋 I'm an 19-year-old software developer from the Netherlands 🇳🇱.</h2>
 
 ###
 
@@ -24,19 +24,22 @@
   -   Polymorphism through interfaces and abstraction
   -   Very familiar with **SOLID** principles and common modern design patterns
 
-- 🔧 **C#**
-  - My main area of expertise
-  - Proficient in building CRUD applications using **ASP.NET** with **Entity Framework**, often working with **MySQL** and similar concepts
-  - Experience with **WPF** and **MVVM** practice, also extensive experience with **WinForms**
+- #### 🔧 **C#**
+  - ##### My main area of expertise
+  - Proficient in building CRUD applications using **ASP.NET** with **Entity Framework**, often working with **MySQL**, **Razor Pages** and similar concepts
+  - Experience with **WPF** and **MVVM** practice, also experience with **WinForms**
+-   Some experience with Dependency Injection in C#, including Scoped, Transient, and Singleton lifetimes, constructor injection for both web and non-web applications, and avoiding common service anti-patterns.
 
-- 🐍 **Python**
+- #### 🐍 **Python**
   - Experience with **web scraping** into **MySQL** databases using **BeautifulSoup4**
   - Also familiar with capturing and parsing **API traffic** for data extraction
 
-- 🐱 **Git**
+- #### 🐱 **Git**
   - Basic understanding of version control workflows
   - Experienced with committing, branching, and pull requests
 
-- 🌐 Familiar with **JavaScript**, **TypeScript**, and **Lua**, although I have limited experience building full-fledged projects with them
-
-- 🚀 I'm quick to learn new programming languages and technologies and keeping up with quickly changing ecosystems, and I enjoy picking up new tools and knowledge when working on different kinds of projects
+- #### 🌐 **APIs & Web Services**
+  - Experience managing a user interface for handling webhooks and file automation with the **Autodesk Construction Cloud API**, including automating **Secure Service Accounts** and project creation
+  - Experience working with the **Microsoft Graph API** for **SharePoint**
+  
+- #### 🚀 I'm quick to learn new programming languages, technologies, and API's, and keeping up with quickly changing ecosystems, and I enjoy picking up new tools, and knowledge when working on different kinds of projects
