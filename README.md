@@ -3,8 +3,11 @@
 ###
 
 <div align="center">
-  <img src="./stats.svg" height="150" alt="GitHub Stats" />
-  <img src="./top-langs.svg" height="150" alt="Top Languages" />
+  <img src="./profile-summary-card-output/dracula/0-profile-details.svg" alt="Profile Details" />
+  <img src="./profile-summary-card-output/dracula/3-stats.svg" alt="GitHub Stats" />
+  <img src="./profile-summary-card-output/dracula/2-most-commit-language.svg" alt="Most Commit Languages" />
+  <img src="./profile-summary-card-output/dracula/1-repos-per-language.svg" alt="Top Languages" />
+  <img src="./profile-summary-card-output/dracula/4-productive-time.svg" alt="Productive Time" />
 </div>
 
 ###
